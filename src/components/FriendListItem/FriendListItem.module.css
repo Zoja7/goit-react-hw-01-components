@@ -1,0 +1,13 @@
+
+.status{
+    width: 20px;
+    height: 20px;
+    background-color: #db3734;
+    border-radius: 50%;
+}
+.isOnline{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(43, 226, 116);
+    border-radius: 50%;
+}
