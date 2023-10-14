@@ -11,3 +11,27 @@
     background-color: rgb(43, 226, 116);
     border-radius: 50%;
 }
+.item{
+    padding: 14px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap: 18px;
+    width: 100%;
+    background-color: #f8ffff;
+    -webkit-box-shadow: 1px 1px 11px -3px rgba(43, 38, 38, 1);
+    -moz-box-shadow: 1px 1px 11px -3px rgba(43, 38, 38, 1);
+    box-shadow: 1px 1px 11px -3px rgba(43, 38, 38, 1);
+}
+.avatar{
+    padding: 4px;
+    background-color:rgb(160, 250, 220);
+    border-radius: 4px;
+}
+.name{
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: rgb(101, 98, 98);
+}

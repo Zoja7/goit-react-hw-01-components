@@ -1,0 +1,55 @@
+.transactionHistory{
+    /* width: 350px; */
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f8ffff;
+    -webkit-box-shadow: 1px 1px 11px -3px rgba(43, 38, 38, 1);
+    -moz-box-shadow: 1px 1px 11px -3px rgba(43, 38, 38, 1);
+    box-shadow: 1px 1px 11px -3px rgba(43, 38, 38, 1);
+    border-radius: 8px;
+}
+
+.tableHead{
+    width: 100%;
+    margin: 0 auto;
+}
+.tableHeadRow{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: start; */
+   
+}
+.tableHeadText{
+    margin: 0 auto;
+    text-align: center;
+ 
+}
+.tableBody{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.tableRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 12px;
+}
+.tableRowType{
+    text-align: start;
+    margin: 0 auto;
+}
+ .tableRowAmount,.tableRowCurrency{
+    text-align: center;
+    margin: 0 auto;
+ }

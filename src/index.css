@@ -1,6 +1,10 @@
 /* @import-normalize; bring in normalize.css styles */
+:root{
+  background-color: aliceblue;
+}
 
 body {
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -14,9 +18,26 @@ code {
     monospace;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 li {
   list-style: none;
 }
 span {
   display: block;
+}
+
+p{
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding-left: 0;
+}
+h2{
+  margin-top: 0;
+  margin-bottom: 0;
 }

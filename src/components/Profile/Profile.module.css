@@ -1,0 +1,89 @@
+.profile{
+    padding-top: 60px;
+    background-color: #f8ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+    -webkit-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4)
+  
+}
+.description{
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.avatar{
+    text-align: center;
+    padding-top: 8px;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid rgba(94, 192, 151, 0.3);
+    -webkit-box-shadow: -2px 0px 40px -4px rgba(64, 162, 129, 0.45) inset;
+    -moz-box-shadow: -2px 0px 40px -4px rgba(0, 0, 0, 0.45) inset;
+    box-shadow: -2px 0px 40px -4px rgba(0, 0, 0, 0.45) inset; ;
+    object-fit: cover;
+}
+
+.name{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-top: 40px;
+    color: rgb(52, 51, 51)
+}
+.location,.tag{
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.2;
+    color:rgb(78, 74, 74)
+}
+
+.stats {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.statsItem{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.label{
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.1;
+    color: rgb(78, 74, 74)
+    
+}
+
+.quantity{
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: rgb(52, 51, 51);
+    text-align: center;
+}

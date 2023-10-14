@@ -10,14 +10,13 @@ import { FriendList } from './FriendList/FriendList';
 import transactions from '../data/transactions.json';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
-
-import { Fragment } from 'react';
-
+import css from './App.module.css'
 
 export const App = () => {
 
   return (
-    <Fragment>
+    <section className={css.section}>
+    <div className={`${css.container} ${css.profileContainer}`}>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -39,7 +38,8 @@ export const App = () => {
         items={transactions}
       />
     
-    </Fragment>   
+      </div> 
+    </section>  
   ) 
   
 };

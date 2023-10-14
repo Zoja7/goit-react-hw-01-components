@@ -1,0 +1,45 @@
+.statistics{
+    padding: 20px;
+    background-color: #f8ffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+        -webkit-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4)
+}
+.title{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: rgb(101, 98, 98)
+}
+.statList{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.percentage,.label{
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.2;
+    color: rgb(78, 74, 74)
+}
+.percentage{
+    font-size: 16px;
+}
