@@ -60,14 +60,15 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 .statsItem{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 6px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+   
 }
 .label{
     text-align: center;
@@ -86,4 +87,74 @@
     line-height: 1.2;
     color: rgb(52, 51, 51);
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .profile {
+        padding-top: 60px;
+    }
+   .avatar{
+    max-width: 400px;
+   }
+
+   .name{
+    font-size: 60px;
+   }
+
+   .location,.tag{
+    font-size: 36px;
+   }
+
+   .stats{
+    justify-content: center;
+    gap: 100px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+   }
+
+   .statsItem{
+    margin: unset;
+   }
+   .label{
+    font-size: 22px;
+   }
+   .quantity{
+    font-size: 36px;
+   }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .profile{
+        padding-top: 80px;
+    }
+
+    .description{
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 20px;
+    }
+
+    .name{
+        font-size: 80px;
+    }
+
+    .tag, .location{
+        font-size: 58px;
+    }
+  
+    .stats{
+        gap: 160px;
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .label {
+     font-size: 38px;
+    }
+    
+    .quantity {
+    font-size: 48px;
+    }
 }

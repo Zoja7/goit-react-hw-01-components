@@ -35,3 +35,42 @@
     line-height: 1.2;
     color: rgb(101, 98, 98);
 }
+
+@media screen and (min-width: 768px){
+    .isOnline,.status {
+        width: 28px;
+        height: 28px;
+    }
+    .item {
+        padding: 30px 70px;
+        gap: 40px;
+    }
+    .avatar {
+        width: 120px;
+        padding: 8px;
+        border-radius: 4px;
+    }
+    .name {
+        font-size: 38px;
+    }
+}
+    
+@media screen and (min-width: 1200px) {
+  .isOnline,.status{
+        width: 60px;
+        height: 60px;
+    }
+    .item{
+        padding: 40px 80px;
+        gap: 80px;
+    }
+    .avatar{
+        width: 160px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+
+    .name{
+        font-size: 42px;
+    }
+}

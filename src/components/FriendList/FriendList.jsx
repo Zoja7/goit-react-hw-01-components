@@ -14,6 +14,5 @@ export const FriendList = ({ friends }) => {
                     />
              );
         })}
-
-        </ul>)
+             </ul>)
 }

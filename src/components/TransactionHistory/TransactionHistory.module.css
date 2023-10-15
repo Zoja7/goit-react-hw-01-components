@@ -1,7 +1,7 @@
 .transactionHistory{
     /* width: 350px; */
     width: 100%;
-    padding: 10px;
+    padding: 30px 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -12,10 +12,10 @@
     border-radius: 8px;
 }
 
-.tableHead{
+/* .tableHead{
     width: 100%;
     margin: 0 auto;
-}
+} */
 .tableHeadRow{
     padding-left: 10px;
     padding-right: 10px;
@@ -24,12 +24,10 @@
     display: flex;
     justify-content: space-between;
     /* align-items: start; */
-   
 }
 .tableHeadText{
     margin: 0 auto;
     text-align: center;
- 
 }
 .tableBody{
     width: 100%;
@@ -40,7 +38,8 @@
 }
 .tableRow{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    align-items:  flex-start;
     justify-content: space-between;
     gap: 16px;
     font-size: 12px;
@@ -52,4 +51,25 @@
  .tableRowAmount,.tableRowCurrency{
     text-align: center;
     margin: 0 auto;
+ }
+
+
+ @media screen and (min-width: 768px) {
+    .transactionHistory{
+        padding: 40px 20px;
+
+    }
+    .tableHeadRow{
+        font-size: 32px;
+    }
+ }
+
+ @media screen and (min-width: 768px) {
+    .transactionHistory {
+        padding: 60px 40px;
+    }
+
+    .tableRow {
+        font-size: 32px;
+     }
  }
