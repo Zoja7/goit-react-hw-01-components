@@ -7,20 +7,25 @@
     align-items: center;
     border-radius: 8px;
     width: 100%;
+
     -webkit-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4)
-  
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
+
+    -webkit-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
+    -moz-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
+    box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
+    
 }
 .description{
     padding-left: 4px;
     padding-right: 4px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 16px;
+    padding-bottom: 20px;
 }
 
 .avatar{
@@ -59,15 +64,19 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    
 }
 .statsItem{
-    margin: 0 auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 6px;
-   
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 2px solid rgb(68, 196, 68);
+    -webkit-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
+    -moz-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
+    box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
 }
 .label{
     text-align: center;
@@ -75,8 +84,8 @@
     font-size: 16px;
     font-weight: 100;
     line-height: 1.1;
-    color: rgb(78, 74, 74)
-    
+    color: rgb(78, 74, 74);
+    padding-top: 40px;
 }
 
 .quantity{
@@ -86,6 +95,7 @@
     line-height: 1.2;
     color: rgb(52, 51, 51);
     text-align: center;
+    padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -106,10 +116,6 @@
 
    .stats{
     justify-content: center;
-    gap: 100px;
-    padding-top: 40px;
-    padding-bottom: 60px;
-
    }
 
    .statsItem{
@@ -133,22 +139,15 @@
         padding-left: 10px;
         padding-right: 10px;
         gap: 20px;
+        padding-bottom: 60px;
     }
 
     .name{
         font-size: 80px;
     }
-
     .tag, .location{
         font-size: 58px;
     }
-  
-    .stats{
-        gap: 160px;
-        padding-top: 60px;
-        padding-bottom: 80px;
-    }
-
     .label {
      font-size: 38px;
     }

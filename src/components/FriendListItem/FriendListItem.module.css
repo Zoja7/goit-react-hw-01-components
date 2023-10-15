@@ -27,6 +27,9 @@
     padding: 4px;
     background-color:rgb(160, 250, 220);
     border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 12px 10px rgba(115, 226, 97, 0.51);
+    -moz-box-shadow: 1px 1px 12px 10px rgba(115, 226, 97, 0.51);
+    box-shadow: 1px 1px 12px 10px rgba(115, 226, 97, 0.51);
 }
 .name{
     font-family: Ubuntu;
