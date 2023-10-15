@@ -1,7 +1,6 @@
 .transactionHistory{
-    /* width: 350px; */
     width: 100%;
-    padding: 30px 10px;
+    padding: 30px 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -12,51 +11,37 @@
     border-radius: 8px;
 }
 
-/* .tableHead{
-    width: 100%;
-    margin: 0 auto;
-} */
 .tableHeadRow{
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100%;
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-    /* align-items: start; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
 }
 .tableHeadText{
-    margin: 0 auto;
+    padding: 20px;
     text-align: center;
-}
-.tableBody{
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 .tableRow{
-    display: flex;
-    /* align-items: center; */
-    align-items:  flex-start;
-    justify-content: space-between;
-    gap: 16px;
-    font-size: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
 }
-.tableRowType{
-    text-align: start;
-    margin: 0 auto;
-}
- .tableRowAmount,.tableRowCurrency{
+
+.tableRowType,.tableRowAmount,.tableRowCurrency{
+    background-color: #d5f4ef;
+    padding: 20px;
     text-align: center;
-    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
  }
 
 
  @media screen and (min-width: 768px) {
     .transactionHistory{
-        padding: 40px 20px;
+        padding: 40px 40px;
 
     }
     .tableHeadRow{
@@ -66,7 +51,7 @@
 
  @media screen and (min-width: 768px) {
     .transactionHistory {
-        padding: 60px 40px;
+        padding: 60px 60px;
     }
 
     .tableRow {
