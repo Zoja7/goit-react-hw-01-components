@@ -2,7 +2,6 @@ import css from './Statistics.module.css';
 import { useState, useEffect } from 'react';
 
 export const Statistics = ({ title = false, stats }) => {
-  
   // function getRandomHexColor() {
   //   return `#${Math.floor(Math.random() * 1677215)
   //     .toString(16)
@@ -35,7 +34,6 @@ export const Statistics = ({ title = false, stats }) => {
   return (
     <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}
-
       <ul className={css.statList}>
         {stats.map((stats, index) => {
           return (

@@ -11,6 +11,9 @@
   box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
 }
 
+/* .tableHead {
+  width: 100%;
+} */
 .tableHeadRow {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -18,7 +21,10 @@
   align-items: center;
 }
 .tableHeadText {
-  padding: 20px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 12px;
+  padding-right: 12px;
   text-align: center;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -49,6 +55,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .tableHeadText {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
   .transactionHistory {
     padding: 40px 40px;
   }

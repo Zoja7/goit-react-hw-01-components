@@ -1,7 +1,7 @@
 .statistics {
-  border-radius: 16px;
   padding: 20px;
   background-color: #f8ffff;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -20,6 +20,15 @@
   line-height: 1.2;
   color: rgb(101, 98, 98);
 }
+/* .statListWrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
 .statList {
   padding: 10px;
   width: 100%;
@@ -29,7 +38,7 @@
   align-items: center;
 }
 .item {
-  padding: 10px;
+  /* padding: 10px; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -42,9 +51,19 @@
     -moz-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
     box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset; */
 }
+.label {
+  padding-top: 8px;
+  padding-bottom: 2px;
+}
+.percentage {
+  padding-bottom: 8px;
+}
+
 .percentage,
 .label {
-  width: 100%;
+  padding-left: 4px;
+  padding-right: 4px;
+  /* width: 100%; */
   text-align: center;
   font-family: Ubuntu;
   font-size: 24px;
