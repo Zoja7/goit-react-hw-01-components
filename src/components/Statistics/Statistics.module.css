@@ -1,103 +1,104 @@
-.statistics{
-    border-radius: 16px;
-    padding: 20px;
-    background-color: #f8ffff;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    -webkit-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
+.statistics {
+  border-radius: 16px;
+  padding: 20px;
+  background-color: #f8ffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  -webkit-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
 }
-.title{
-    text-align: center;
-    font-family: Roboto;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 1.2;
-    color: rgb(101, 98, 98)
+.title {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: rgb(101, 98, 98);
 }
-.statList{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.statList {
+  width: 100%;
+  display: flex;
+  gap: 2px;
+  justify-content: space-around;
+  align-items: center;
 }
-.item{
-    padding: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    border: 2px ridge rgb(68, 196, 68);
-    border-radius: 16px;
-    /* -webkit-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
+.item {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border: 2px ridge rgb(110, 154, 110);
+  border-radius: 16px;
+  /* -webkit-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
     -moz-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
     box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset; */
 }
-.percentage,.label{
-    width: 100%;
-    text-align: center;
-    font-family: Ubuntu;
-    font-size: 24px;
-    font-weight: 100;
-    line-height: 1.2;
-    color: rgb(243, 255, 251)
+.percentage,
+.label {
+  width: 100%;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 1.2;
+  color: rgb(243, 255, 251);
 }
-.percentage{
-    font-size: 16px;
+.percentage {
+  font-size: 16px;
 }
 
 @media screen and (min-width: 768px) {
-    .statistics {
-        padding: 40px;
-        gap: 30px;
-    }
+  .statistics {
+    padding: 40px;
+    gap: 30px;
+  }
 
-    .statList {
-        justify-content: space-evenly;
-     }
-    
-    .item {
-        gap: 12px;
-    }
+  .statList {
+    justify-content: space-evenly;
+  }
 
-    .title {
-        font-size: 38px;
-    }
-        
-    .label {
-        font-size: 32px;
-     }
-        
-    .percentage {
-        font-size: 28px;
-        }
-    }
+  .item {
+    gap: 12px;
+  }
 
-@media screen and (min-width: 1200px){
+  .title {
+    font-size: 38px;
+  }
 
-    .statistics {
-            padding: 80px;
-            gap: 60px;
-        }
-    .item{
-        padding: 18px;
-    }
-   
-    .title{
-        font-size: 54px;
-    }
-   
-    .label{
-        font-size: 40px;
-    }
-    .percentage{
-        font-size: 32px;
-    }
+  .label {
+    font-size: 32px;
+  }
+
+  .percentage {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .statistics {
+    padding: 80px;
+    gap: 60px;
+  }
+  .item {
+    padding: 18px;
+  }
+
+  .title {
+    font-size: 54px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+  .percentage {
+    font-size: 32px;
+  }
 }

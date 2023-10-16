@@ -1,68 +1,68 @@
-.transactionHistory{
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    background-color: #f8ffff;
-    border-radius: 16px;
-    -webkit-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
-    -moz-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
-    box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
-    
+.transactionHistory {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8ffff;
+  border-radius: 16px;
+  border: 2px ridge rgb(110, 154, 110);
+  -webkit-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
+  -moz-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
+  box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
 }
 
-.tableHeadRow{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
+.tableHeadRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
 }
-.tableHeadText{
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #99f4cc;
+.tableHeadText {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #99f4cc;
 }
-.tableBody{
-    width: 100%;
+.tableBody {
+  width: 100%;
 }
-.tableRow{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
+.tableRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 
-.tableRowType,.tableRowAmount,.tableRowCurrency{
-    background-color: #d5f4ef;
-    padding: 18px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
- }
-  .tableRowCurrency{
-    margin: 0;
+.tableRowType,
+.tableRowAmount,
+.tableRowCurrency {
+  background-color: #d5f4ef;
+  padding: 18px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+.tableRowCurrency {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .transactionHistory {
+    padding: 40px 40px;
+  }
+  .tableHeadRow {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .transactionHistory {
+    padding: 60px 60px;
   }
 
-
- @media screen and (min-width: 768px) {
-    .transactionHistory{
-        padding: 40px 40px;
-
-    }
-    .tableHeadRow{
-        font-size: 32px;
-    }
- }
-
- @media screen and (min-width: 768px) {
-    .transactionHistory {
-        padding: 60px 60px;
-    }
-
-    .tableRow {
-        font-size: 32px;
-     }
- }
+  .tableRow {
+    font-size: 32px;
+  }
+}
