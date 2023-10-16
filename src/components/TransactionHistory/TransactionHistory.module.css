@@ -4,10 +4,7 @@
     display: flex;
     flex-direction: column;
     background-color: #f8ffff;
-    -webkit-box-shadow: 1px 1px 11px -3px rgba(43, 38, 38, 1);
-    -moz-box-shadow: 1px 1px 11px -3px rgba(43, 38, 38, 1);
-    box-shadow: 1px 1px 11px -3px rgba(43, 38, 38, 1);
-    border-radius: 8px;
+    border-radius: 16px;
     -webkit-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
     -moz-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
     box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
@@ -45,6 +42,9 @@
     border-radius: 5px;
     width: 100%;
  }
+  .tableRowCurrency{
+    margin: 0;
+  }
 
 
  @media screen and (min-width: 768px) {

@@ -1,4 +1,5 @@
 .statistics{
+    border-radius: 16px;
     padding: 20px;
     background-color: #f8ffff;
     display: flex;
@@ -8,9 +9,9 @@
     align-items: center;
     border-radius: 8px;
     width: 100%;
-        -webkit-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
-        -moz-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4)
+    -webkit-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
 }
 .title{
     text-align: center;
@@ -33,6 +34,7 @@
     flex-direction: column;
     gap: 4px;
     border: 2px solid rgb(68, 196, 68);
+    border-radius: 16px;
     -webkit-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
     -moz-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
     box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;

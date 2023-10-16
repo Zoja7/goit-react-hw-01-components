@@ -1,4 +1,5 @@
 .profile{
+    border-radius: 16px;
     padding-top: 60px;
     background-color: #f8ffff;
     display: flex;
@@ -6,15 +7,10 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    -webkit-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
 
     -webkit-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
     -moz-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
     box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
-    border-radius: 8px;
-    
 }
 .description{
     padding-left: 4px;
@@ -58,7 +54,9 @@
     line-height: 1.2;
     color:rgb(78, 74, 74)
 }
-
+.location{
+    margin: 0;
+}
 .stats {
     width: 100%;
     display: flex;
@@ -76,6 +74,7 @@
     -webkit-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
     -moz-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
     box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
+    border-radius: 16px;
 }
 .label{
     text-align: center;
@@ -117,9 +116,6 @@
     justify-content: center;
    }
 
-   .statsItem{
-    margin: unset;
-   }
    .label{
     font-size: 22px;
    }

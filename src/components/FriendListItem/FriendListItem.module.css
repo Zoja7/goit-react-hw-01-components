@@ -12,6 +12,7 @@
     border-radius: 50%;
 }
 .item{
+    border-radius: 16px;
     padding: 14px;
     display: flex;
     justify-content:flex-start;
