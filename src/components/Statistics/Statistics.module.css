@@ -2,6 +2,7 @@
   padding: 20px;
   background-color: #f8ffff;
   border-radius: 16px;
+  border: 2px ridge rgb(110, 154, 110);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -20,15 +21,7 @@
   line-height: 1.2;
   color: rgb(101, 98, 98);
 }
-/* .statListWrapper {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-} */
+
 .statList {
   padding: 10px;
   width: 100%;
