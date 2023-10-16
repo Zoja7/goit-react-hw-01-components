@@ -1,6 +1,6 @@
 .transactionHistory{
     width: 100%;
-    padding: 30px 30px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     background-color: #f8ffff;
@@ -27,6 +27,9 @@
     border-radius: 5px;
     background-color: #99f4cc;
 }
+.tableBody{
+    width: 100%;
+}
 .tableRow{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -36,10 +39,11 @@
 
 .tableRowType,.tableRowAmount,.tableRowCurrency{
     background-color: #d5f4ef;
-    padding: 20px;
+    padding: 18px;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 100%;
  }
 
 

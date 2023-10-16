@@ -5,9 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
     width: 100%;
-
     -webkit-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
     box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
@@ -15,6 +13,7 @@
     -webkit-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
     -moz-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
     box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
+    border-radius: 8px;
     
 }
 .description{
