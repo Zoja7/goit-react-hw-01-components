@@ -7,7 +7,6 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
     width: 100%;
     -webkit-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.4);
@@ -32,20 +31,23 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 4px;
-    border: 2px solid rgb(68, 196, 68);
+    border: 2px ridge rgb(68, 196, 68);
     border-radius: 16px;
-    -webkit-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
+    /* -webkit-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
     -moz-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
-    box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
+    box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset; */
 }
 .percentage,.label{
+    width: 100%;
     text-align: center;
     font-family: Ubuntu;
     font-size: 24px;
     font-weight: 100;
     line-height: 1.2;
-    color: rgb(243, 235, 235)
+    color: rgb(243, 255, 251)
 }
 .percentage{
     font-size: 16px;

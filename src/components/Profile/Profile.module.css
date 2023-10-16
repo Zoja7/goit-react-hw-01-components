@@ -7,7 +7,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-
     -webkit-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
     -moz-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
     box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
@@ -31,7 +30,7 @@
     max-width: 200px;
     height: auto;
     border-radius: 50%;
-    border: 2px solid rgba(94, 192, 151, 0.3);
+    border: 2px ridge rgba(94, 192, 151, 0.3);
     -webkit-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
     -moz-box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
     box-shadow: 1px 1px 59px 9px rgba(99, 239, 97, 0.86) inset;
@@ -55,7 +54,7 @@
     color:rgb(78, 74, 74)
 }
 .location{
-    margin: 0;
+    margin-left: 0;
 }
 .stats {
     width: 100%;
@@ -70,7 +69,7 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
-    border: 2px solid rgb(68, 196, 68);
+    border: 2px ridge rgb(68, 196, 68);
     -webkit-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
     -moz-box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
     box-shadow: 1px 1px 19px 6px rgba(115, 226, 97, 0.51) inset;
@@ -85,7 +84,6 @@
     color: rgb(78, 74, 74);
     padding-top: 40px;
 }
-
 .quantity{
     font-family: Ubuntu;
     font-size: 24px;
