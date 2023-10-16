@@ -2,6 +2,7 @@ import css from './Statistics.module.css';
 import { useState, useEffect } from 'react';
 
 export const Statistics = ({ title = false, stats }) => {
+  
   // function getRandomHexColor() {
   //   return `#${Math.floor(Math.random() * 1677215)
   //     .toString(16)

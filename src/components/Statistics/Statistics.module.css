@@ -21,6 +21,7 @@
   color: rgb(101, 98, 98);
 }
 .statList {
+  padding: 10px;
   width: 100%;
   display: flex;
   gap: 2px;
